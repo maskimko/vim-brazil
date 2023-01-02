@@ -9,3 +9,7 @@ To be done
 **Usage
 To be done
 
+***References
+I took as an example this repository: https://github.com/pgr0ss/vimux-bazel-test
+Thanks to:  pgr0ss
+
