@@ -6,7 +6,7 @@ let g:loaded_vimux_brazil = 1
 command RunAllBrazilTests :call s:RunAllBazelTests()
 
 function s:RunAllBrazilTests()
-   call VimuxRunCommand("clear && " . "bazel test //...")
+   call VimuxRunCommand("clear && " . "brazil-test-exec pytest")
 endfunction
 
 "function s:RunTargetBazelTests()
