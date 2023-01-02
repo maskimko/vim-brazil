@@ -3,7 +3,7 @@ if exists("g:loaded_vimux_brazil") || &cp
 endif
 let g:loaded_vimux_brazil = 1
 
-command RunAllBrazilTests :call s:RunAllBazelTests()
+command RunAllBrazilTests :call s:RunAllBrazilTests()
 
 function s:RunAllBrazilTests()
    call VimuxRunCommand("clear && " . "brazil-test-exec pytest")
